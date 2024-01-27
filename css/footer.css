@@ -1,0 +1,374 @@
+/* Footer */
+footer {
+  bottom: 0;
+  background: linear-gradient(to right, #ff9800, #464340);
+  color: #fff;
+  padding: 50px 0 30px;
+  border-top-left-radius: 125px;
+  line-height: 20px;
+}
+.row {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+.row p {
+  font-size: var(--small-font-size);
+}
+.col1 {
+  flex: 0 0 30%;
+}
+.inner-col1 {
+  padding: 0px 20px;
+}
+.col2 {
+  flex: 0 0 30%;
+}
+.inner-col2 {
+  padding-left: 40px;
+}
+.col3 {
+  flex: 0 0 20%;
+}
+.col4 {
+  flex: 0 0 20%;
+}
+.row > div {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.footerlogo {
+  height: 70px;
+  margin-bottom: 10px;
+}
+.row h3 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: var(--h3-font-size);
+}
+.row p {
+  color: #fff;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.col2 p i {
+  margin-right: 5px;
+}
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.col3 ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.col3 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: var(--small-font-size);
+}
+.col3 ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.social-icons .fa-brands {
+  width: 30px;
+  height: 33px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.social-icons .fa-brands:hover {
+  color: var(--orange);
+  transform: scale(1.1);
+}
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+.copyright {
+  text-align: center;
+  font-size: var(--smaller-font-size);
+}
+.underline {
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.no-link-style {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media screen and (min-width: 951px) and (max-width: 1024px) {
+  footer {
+    padding: 40px 0 30px;
+  }
+  .inner-col1 {
+    padding: 0px;
+    padding-right: 25px;
+  }
+  .inner-col2 {
+    padding-left: 0px;
+    padding-right: 25px;
+  }
+  .col3 {
+    flex: 0 0 20%;
+  }
+  .col4 {
+    flex: 0 0 25%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  footer {
+    padding: 20px 0 30px;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .inner-col1 {
+    display: flex;
+  }
+  .col1 {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+  .col2,
+  .col3,
+  .col4 {
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+  .footerlogo {
+    max-width: 70px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+  .inner-col2 {
+    padding-left: 0px;
+  }
+  .inner-col4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 20px;
+  }
+  .col p {
+    margin-bottom: 5px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+  }
+  .social-icons .fa-brands {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 521px) and (max-width: 767px) {
+  footer {
+    padding: 20px 0 20px;
+  }
+  .row {
+    flex-wrap: wrap;
+    margin: 0px auto;
+  }
+  .inner-col1 {
+    display: flex;
+  }
+  .col1 {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+  .col2,
+  .col3,
+  .col4 {
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+  .col2,
+  .col3 {
+    margin-bottom: 20px;
+  }
+  .footerlogo {
+    max-width: 70px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+  .inner-col2 {
+    padding-left: 0px;
+  }
+  .inner-col4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 20px;
+  }
+  .col p {
+    margin-bottom: 5px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+  }
+  .social-icons .fa-brands {
+    margin-right: 10px;
+  }
+  .row h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  footer {
+    line-height: 20px;
+    padding: 10px 0 20px;
+  }
+  .footerlogo {
+    max-width: 60px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+  .inner-col1 {
+    padding: 0px;
+  }
+  ul li {
+    margin-bottom: 5px;
+  }
+  .row {
+    width: 90%;
+    flex-direction: column;
+  }
+  .row h3 {
+    margin-bottom: 20px;
+  }
+  .footerlogo {
+    max-width: 60px;
+    height: auto;
+    margin-left: 14px !important;
+    margin-right: 15px !important;
+  }
+  .inner-col1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .inner-col2 {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .inner-col3 {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  .inner-col4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .col p {
+    margin-bottom: 5px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+  }
+  .social-icons i {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  .social-icons .fa-brands {
+    margin-right: 5px;
+  }
+  .copyright {
+    padding: 20px;
+  }
+  hr {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 180px) and (max-width: 280px) {
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    flex-basis: 100%;
+    padding-left: 10px;
+  }
+  .inner-col1 {
+    display: block;
+    padding: 0px;
+  }
+  .footerlogo {
+    margin-left: 20px !important;
+  }
+  .social-icons .fa-brands {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  hr {
+    margin: 0;
+  }
+}

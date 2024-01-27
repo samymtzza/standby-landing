@@ -1,0 +1,53 @@
+
+En Index.hmtl :
+
+    "<!--=============== Section 1 ===============-->"
+    Esta formada por el header, navbar, hero section & id tracking. 
+    Sus estilos estan en styles.css
+    En script.js linea 15 esta la funcion del Burger Menu
+    para tamaños de pantalla menores a desktop.
+
+    "<!--=============== Section 2 ===============-->"
+    Esta formada por el value preposition section, el road map,
+    y los indicadores dinamicos.
+    Sus estilos estan en css/section2.css.
+    La imagen debajo de "quienes somos", esta en img/intro.webp en linea 135 de index.html
+    En script.js linea 61 esta la animacion de los valores
+    de value preposition section.
+    En script.js linea 76 esta la funcion para los indicadores 
+    dinamicos, en linea 92-94 agregas manualmente el numero de 
+    cada indicador.
+
+    "<!--=============== Section 3 ===============-->"
+    Esta formada por los beneficios para socios-clientes y
+    la seccion del swiper con los logos de clientes.
+    Sus estilos estan en css/section3.css.
+    En script.js linea 116 esta la funcion del swiper.
+    Las imagenes de los logos estan en img/clientes.
+
+    "<!--=============== Section 4 ===============-->"
+    Esta formada por join-us, FAQ y Testimonios.
+    Sus estilos estan en css/section4.css.
+    La imagen de la seccion "join-us, esta en img/join.webp, 
+    en linea 271 de index.html.
+    En script.js linea 138 esta la funcion para el
+    "application form del conductor afiliado.
+    En script.js linea 156 esta la funcion del abrir 
+    y cerrar las preguntas frecuentes.
+    En script.js linea 173 esta la funcion para los 
+    slides de los testimonios, la cual cambia cada 5segundos.
+
+    "<!--=============== Footer ===============-->"
+    Estilos en css/footer.css
+
+    "<!--=============== About.html ===============-->"
+    Sus estilos y js estan en carpeta about.
+    La imagen en seccion "Servicios", esta directa en img.
+
+
+
+
+
+
+
+

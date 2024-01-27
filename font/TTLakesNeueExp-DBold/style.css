@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TT Lakes Neue Expanded';
+    src: local('TT Lakes Neue Expanded DemiBold'), local('TT-Lakes-Neue-Expanded-DemiBold'),
+        url('TTLakesNeueExp-DBold.woff2') format('woff2'),
+        url('TTLakesNeueExp-DBold.woff') format('woff'),
+        url('TTLakesNeueExp-DBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }

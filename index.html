@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>STANDBY</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--=============== CSS ===============-->  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/section2.css" />
+    <link rel="stylesheet" href="css/section3.css" />
+    <link rel="stylesheet" href="css/section4.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1910cb1e04.js"></script>
+  </head>
+  <body>
+    <div class="content">
+
+      <!--=============== Section 1 ===============-->
+      <!-- Header -->
+      <header>
+        <div class="logo">
+          <img src="/img/logos/logo.orange.webp" alt="Logo de StandBy" />
+          <a href="index.html" style="text-decoration: none; color: inherit;">
+          <h1 class="title">STANDBY</h1>
+        </div>
+        <button
+          class="burger"
+          id="hamburger"
+          aria-label="Menu"
+          aria-controls="navigation"
+        >
+          <span>&#9776;</span>
+        </button>
+        <nav id="navigation" class="navigation menubar">
+          <button class="close-nav" aria-label="Cerrar menú">&times;</button>
+          <a href="about.html">Sobre Nosotros</a>
+          <a href="#join">Trabaja con Nosotros</a>
+          <a href="#footer">Contacto</a>
+          <a id="trackp" href="#track" class="cta-button">
+           Rastrar Envio <span class="arrow">↗</span>
+          </a>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <video autoplay muted loop playsinline id="heroVideo">
+          <source src="/video/red.mp4" type="video/mp4" />
+          Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="hero-content">
+          <h1>
+            Construyendo Conexiones, <br />
+            Acelerando Entregas
+          </h1>
+          <h1 class="standby-highlight">STANDBY</h1>
+          <p>Soluciones Logísticas Integrales para Negocios en Movimiento</p>
+        </div>
+      </section>
+
+      <!-- Tracking -->
+      <section id="track" class="tracking-section">
+        <div class="tracking-container">
+          <h2>Rastrea tu Envío</h2>
+          <p>Ingresa el número de seguimiento de tu envío.</p>
+          <div class="tracking-input-group">
+            <input type="text" id="trackingNumber" placeholder="Número de seguimiento" />
+            <button type="button" id="trackButton">Rastrear</button>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Section 2 ===============-->
+      <!-- Value Proposition Section -->
+      <div class="value-title">
+        <h2 class="section-title">Quienes Somos</h2>
+      </div>
+
+      <section class="value-proposition">
+        <div class="val-container">
+          <div class="text-container">
+            <h2>Conectando Negocios con Entregas Rápidas y Confiables</h2>
+            <p>
+              En <span class="brand-name">STANDBY</span> trascendemos la logística tradicional para ofrecerte una solución integral que impulsa la eficiencia y el crecimiento. Conectando demanda y oferta en una plataforma ágil y segura. <span class="highl">Simplificamos</span> tus entregas, <span class="highl">impulsamos</span> tus ventas y <span class="highl">aseguramos</span> que cada proyecto sea un éxito.
+            </p>
+
+            <div class="values-section">
+              <div class="value-item">
+                <div class="value-box">Innovación</div>
+              </div>
+              <div class="value-item">
+                <div class="value-box">Confiabilidad</div>
+              </div>
+              <div class="value-item">
+                <div class="value-box">Excelencia</div>
+              </div>
+            </div>
+
+            <div class="cta">
+              <a href="about.html" class="btn btn-primary">Conoce Más</a>
+            </div>
+            
+          </div>
+        
+          <div class="value-img">
+          <img src="/img/intro.webp" alt="Descripción de la imagen">
+          </div>
+        </div>
+      </section>
+
+      <!-- Road Map -->
+      <div class="map-title">
+        <h2 class="section-title">Cómo Funciona</h2>
+      </div>
+      
+      <section class="how-it-works">
+        <div class="step">
+          <div class="icon-wrapper">
+            <img src="/img/icons/step1.webp" alt="Solicitar Entrega">
+          </div>
+          <h3>Solicitar Entrega</h3>
+          <p>Ofrecemos a los proveedores y distribuidores una flotilla de conductores para entregas rápidas.</p>
+        </div>
+        <div class="connector"></div> <!-- Conector agregado -->
+        <div class="step">
+          <div class="icon-wrapper">
+            <img src="/img/icons/step2.webp" alt="Rastrear">
+          </div>
+          <h3>Rastrear</h3>
+          <p>Los clientes pueden ver en tiempo real el estado de su pedido, optimizando la productividad.</p>
+        </div>
+        <div class="connector"></div> <!-- Conector agregado -->
+        <div class="step">
+          <div class="icon-wrapper">
+            <img src="/img/icons/step3.webp" alt="Recibir una prueba de entrega">
+          </div>
+          <h3>Recibir una prueba de entrega</h3>
+          <p>Confirmación de entrega con evidencia para garantizar la máxima satisfacción del cliente.</p>
+        </div>
+      </section>
+
+      <!-- Indicators -->
+      <section id="dynamicIndicatorsSection" class="dynamic-indicators">
+        <div class="indicator">
+          <div class="indicator-top">
+          <img src="/img/icons/driver.webp" alt="Afiliados Registrados" class="indicator-icon">
+          <div id="affiliatesCount" class="indicator-value">0</div>
+        </div>
+          <h3>Afiliados Registrados</h3>
+        </div>
+        <div class="indicator">
+          <div class="indicator-top">
+          <img src="/img/icons/delivered.webp" alt="Afiliados Registrados" class="indicator-icon">
+          <div id="ordersCompleted" class="indicator-value">0</div>
+        </div>
+          <h3>Pedidos Completados</h3>
+        </div>
+        <div class="indicator">
+          <div class="indicator-top">
+          <img src="/img/icons/ton.webp" alt="Afiliados Registrados" class="indicator-icon">
+          <div id="tonsDelivered" class="indicator-value">0</div>
+        </div>
+          <h3>Toneladas Entregadas</h3>
+        </div>
+      </section> 
+
+      <!--=============== Section 3 ===============-->
+      <!-- Benefits -->
+      <div class="bene-title">
+        <h2 class="section-title">Beneficios Clave para Socios y Clientes</h2>
+      </div>
+      <section class="benefits-section">
+        <div class="bene-container">
+          <div class="benefits-column">
+            <h2>Para proveedores/distribuidores:</h2>
+            <ul class="benefits-list">
+              <li>Garantiza la entrega inmediata y a pedido</li>
+              <li>Minimiza los costos de entrega en hasta un 25%</li>
+              <li>Maximiza tus ganancias con una cadena de suministro eficiente</li>
+            </ul>
+            <p class="utilizado">Utilizado para:</p>
+            <ul class="usage-list">
+              <li>Transferencias rápidas entre sucursales</li>
+              <li>Atención de pedidos de última hora</li>
+              <li>Respuesta a emergencias o gestión de devoluciones</li>
+            </ul>
+          </div>
+          <div class="benefits-column">
+            <h2>Para Contratistas:</h2>
+            <ul class="benefits-list">
+              <li>Aumenta la rentabilidad del proyecto con entregas just-in-time</li>
+              <li>Disminuye los costos de entrega en hasta un 25%</li>
+              <li>Accede a suministros y materiales bajo demanda para no detener tu obra</li>
+            </ul>
+            <p class="utilizado">Utilizado para:</p>
+            <ul class="usage-list">
+              <li>Adquisición eficiente de suministros</li>
+              <li>Entregas directas desde el almacén a la obra</li>
+              <li>Facilitación de recorridos y visitas de obra</li>
+            </ul>
+          </div>
+        </div>
+      </section>     
+
+      <!-- Clients/Swiper -->
+      <div class="swiper-container client-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/clientes/client1.webp" alt="Client Logo 1"></div>
+          <div class="swiper-slide"><img src="img/clientes/client2.webp" alt="Client Logo 2"></div>
+          <div class="swiper-slide"><img src="img/clientes/client3.webp" alt="Client Logo 3"></div>
+          <div class="swiper-slide"><img src="img/clientes/client4.webp" alt="Client Logo 4"></div>
+          <div class="swiper-slide"><img src="img/clientes/client5.webp" alt="Client Logo 5"></div>
+          <div class="swiper-slide"><img src="img/clientes/client6.webp" alt="Client Logo 6"></div>
+          <div class="swiper-slide"><img src="img/clientes/client7.webp" alt="Client Logo 6"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!--=============== Section 4 ===============-->
+      <!-- Join Us -->
+      <section id="join" class="join-us">
+        <div class="container-applic">
+          <div class="cta-text">
+            <h2>Únete a Nuestro Equipo de Conductores</h2>
+            <p>
+              <span class="bold">Libertad y ganancias al volante:</span>  Convierte cada kilómetro en oportunidades de ingreso.
+            </p>
+
+            <ul class="benefits-list join-list">
+              <li>Flexibilidad de horario para trabajar cuando quieras</li>
+              <li>Ganancias competitivas por entrega</li>
+              <li>Oportunidades constantes</li>
+              <li>Tecnología fácil de usar para seguir tus entregas</li>
+            </ul>
+
+            <div class="button-container">
+              <button id="applyBtn" class="apply-button">Aplica aquí</button>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="/img/join.webp" alt="Join Our Team" />
+          </div>
+
+        </div>
+          <div class="form-applic" id="applicationForm" style="display: none">
+            <!-- Application Form -->
+            <form id="driverApplication">
+              <h3>Regístrate para ser un Conductor Afiliado</h3>
+              <div class="form-row"> 
+              <div class="join-group">
+                <label for="fullName">Nombre completo</label>
+                <input type="text" id="fullName" name="fullName" required />
+              </div>
+              <div class="join-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="join-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="join-group">
+                <label for="phone">Edad</label>
+                <input type="number" id="age" name="age" required />
+              </div>
+              <div class="join-group">
+                <label for="vehicleType">Tipo de vehículo</label>
+                <select id="vehicleType" name="vehicleType" required>
+                  <option value="car">Redilas</option>
+                  <option value="van">Plataforma</option>
+                  <option value="truck">Caja Seca</option>
+                  <option value="van">Pick Up</option>
+                  <option value="truck">Furgoneta</option>
+                </select>
+              </div>
+              <div class="join-group">
+                <label for="license">¿Cuentas con licencia de conducir válida?</label>
+                <input type="checkbox" id="license" name="license" required />
+              </div>
+            </div>
+            <div class="submit-container">
+              <button type="submit" class="submit-applic">
+                Enviar Solicitud
+              </button>
+            </div>
+            </form>
+          </div>
+      </section>
+
+      <!-- FAQ -->
+      <div class="faq-title">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+      </div>
+      <div class="faq-section">
+        <div class="faq-container">
+          <div class="faq">
+            <!-- FAQ Item 1 -->
+            <div class="faq-question">
+              <button class="accordion">¿Qué es StandBy?</button>
+              <div class="panel">
+                <p>En StandBy, somos especialistas en revolucionar la logística de la construcción, ofreciendo soluciones tecnológicas avanzadas que optimizan la gestión de flotas y la entrega de materiales. Nuestra plataforma centraliza vehículos y pedidos, aumentando la eficiencia y reduciendo tiempos improductivos, con un compromiso inquebrantable de brindar a proveedores y clientes un servicio excepcionalmente rápido y confiable.</p>
+              </div>
+            </div>
+            <!-- FAQ Item 2 -->
+            <div class="faq-question">
+              <button class="accordion">¿Qué tipo de servicios ofrecemos?</button>
+              <div class="panel">
+                <p>Ofrecemos servicios logísticos personalizados para proveedores, contratistas y operadores independientes, enfocándonos en la eficiencia y optimización de la gestión vehicular y de pedidos. Para los proveedores, ofrecemos una plataforma que mejora la logística sin costos fijos, cobrando solo por transacciones realizadas, lo que aumenta las ventas y garantiza un servicio de entrega de alta calidad. Los contratistas se benefician de nuestro seguimiento en tiempo real y cumplimiento puntual de entregas, asegurando que los materiales lleguen a tiempo y sin contratiempos. Para los operadores independientes, aseguramos una demanda constante, permitiéndoles maximizar ganancias y mantener sus gastos operativos, todo mientras forman parte de nuestro distinguido equipo de Héroes.</p>
+              </div>
+            </div>
+            <!-- FAQ Item 3 -->
+            <div class="faq-question">
+              <button class="accordion">¿Cómo garantiza StandBy la calidad y seguridad en el proceso de entrega?</button>
+              <div class="panel">
+                <p>En StandBy, garantizamos entregas seguras y de alta calidad mediante protocolos de manejo rigurosos, formación especializada de nuestros operadores y seguimiento en tiempo real, asegurando la satisfacción y la seguridad en cada paso del servicio.</p>
+              </div>
+            </div>
+            <!-- FAQ Item 4 -->
+            <div class="faq-question">
+              <button class="accordion">¿Cual es la función de un conductor afiliado?</button>
+              <div class="panel">
+                <p>Como "Héroe" de StandBy, serás responsable de ejecutar entregas eficientes y puntuales, recibiendo órdenes a través de nuestra aplicación móvil, basadas en las ventas de nuestros proveedores. Te equiparemos con toda la información necesaria para recoger y entregar pedidos, incluyendo la lista de compra, direcciones y especificaciones de entrega. Tu desempeño influirá en la cantidad de rutas asignadas, permitiéndote incrementar tus oportunidades y beneficios conforme demuestres tu eficiencia y fiabilidad en el servicio.</p>
+              </div>
+            </div>
+            <!-- FAQ Item 5 -->
+            <div class="faq-question">
+              <button class="accordion">¿Qué productos estaré movilizando como conductor afiliado?</button>
+              <div class="panel">
+                <p>Como Héroe en StandBy, manejarás una amplia gama de materiales de construcción, desde bultos de cemento, blocks, varillas y tuberías, hasta casetones, armex y viguetas, entre otros. Estos productos son fundamentales para nuestros clientes en la industria de la construcción, y tu rol es crucial para asegurar una logística optimizada y entregas eficientes que fortalezcan nuestra cadena de suministro.</p>
+              </div>
+            </div>  
+             <!-- FAQ Item 6 -->
+             <div class="faq-question">
+              <button class="accordion"> ¿Puedo elegir un horario flexible al formar parte del equipo como conductor afiliado?</button>
+              <div class="panel">
+                <p>Definitivamente, en StandBy valoramos la flexibilidad y como parte de nuestro equipo de "Héroes", podrás establecer tu propio horario de trabajo semanal para que se ajuste a tus necesidades, siempre que puedas cumplir con los compromisos de entrega acordados.</p>
+              </div>
+            </div>                      
+            <!-- Más preguntas aquí si es necesario -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="test-title">
+        <h2 class="section-title">Testimonios</h2>
+      </div>
+      <div class="test-container">
+        <div class="test-content"> 
+          <p>
+            En <span class="brand-name">STANDBY</span> recibimos los comentarios como un medio crucial para mejorar la calidad de nuestro servicio
+          </p>
+          <p class="rating">Índice de Satisfacción</p>
+          <div class="test-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+
+      <div class="review-slider">
+        <h2>Ecos de Éxito</h2>
+        <!-- 1 Testimonial Slide -->
+        <div class="review-slide">
+          <div class="review-box">
+            <div class="quote-icon">“</div>
+            <div class="review-content">
+              <p class="review-text">
+                La asociación con Standby ha sido clave para optimizar nuestra cadena de suministro. Su flotilla flexible y eficiente ha mejorado nuestro servicio al cliente y reducido nuestros costos operativos.
+              </p>
+              <p class="review-author">Ing. Ernesto V. <span class="position">- Socio Comercial</span></p>
+              <p class="review-date">Dec 12, 2023</p>
+            </div>
+          </div>
+        </div>
+        <!--2 -->
+        <div class="review-slide">
+          <div class="review-box">
+            <div class="quote-icon">“</div>
+            <div class="review-content">
+              <p class="review-text">
+                Ser parte de Standby me ha dado la libertad de generar ingresos adicionales con mi camioneta, adaptando los horarios de entrega a mi vida, no al revés. ¡Es una gran oportunidad para ser mi propio jefe!
+              </p>
+              <p class="review-author">Jaime R. <span class="position">- Conductor Afiliado</span></p>
+              <p class="review-date">Oct 07, 2022</p>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="review-slide">
+          <div class="review-box">
+            <div class="quote-icon">“</div>
+            <div class="review-content">
+              <p class="review-text">
+                Standby ha revolucionado nuestra logística de entregas. Las herramientas en tiempo real y los conductores confiables han acelerado nuestros tiempos de entrega y, por ende, nuestra productividad en obra.
+              </p>
+              <p class="review-author">Arq. Carlos S. <span class="position">- Cliente Corporativo</span></p>
+              <p class="review-date">Oct 07, 2022</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <span class="prev">&#10094;</span>
+          <span class="next">&#10095;</span>
+        </div>
+      </div>
+      </div>      
+
+      <!--=============== Footer ===============-->
+      <footer id="footer">
+        <div class="row">
+          <div class="col1">
+            <div class="inner-col1">
+              <img src="/img/logos/black-313px.webp" alt="logo" class="footerlogo" />
+              <p>
+                Optimiza tus recursos vehiculares 
+                y acelera tus proyectos con StandBy, 
+                tu socio estratégico en logística.
+              </p>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="inner-col2">
+            <h3>
+              Contacto
+              <div class="underline"><span></span></div>
+            </h3>
+            <p><i class="fas fa-envelope"></i> managment@standby.com.mx</p>
+            <p><i class="fas fa-map-marker-alt"></i> Torreón, Coahuila</p>
+            <p class="no-link-style"><i class="fas fa-phone"></i> 871 505 7269</p>
+            </div>
+          </div>        
+
+          <div class="col3">
+            <div class="inner-col3">
+            <h3>
+              Enlaces
+              <div class="underline"><span></span></div>
+            </h3>
+            <ul>
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="/about.html">Sobre Nosotros</a></li>
+              <li><a href="#join">Trabaja con Nosotros</a></li>
+              <li><a href="#track">Rastrea Envio</a></li>
+            </ul>
+            </div>
+          </div>
+
+          <div class="col4">
+            <div class="inner-col4">
+              <h3>
+                Follow Us
+                <div class="underline"><span></span></div>
+              </h3>
+              <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+
+                <a href="https://www.instagram.com/standby_mx?igsh=MTY1bGRxNXN4dzg4cQ==" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                
+                <a href="https://www.linkedin.com/in/stand-by-8541502aa" target="_blank" aria-label="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">
+          2023 &copy; | Todos los derechos reservados por StandBy&reg;
+        </p>
+
+      </footer>
+
+  </div>
+  </body>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</html>

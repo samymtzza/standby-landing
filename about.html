@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>STANDBY</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--=============== CSS ===============--> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about/about.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1910cb1e04.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="logo">
+          <img src="img/logos/logo.orange.webp" alt="Logo de StandBy" />
+          <a href="index.html" style="text-decoration: none; color: inherit;">
+          <h1 class="title">STANDBY</h1>
+        </div>
+        <button
+          class="burger"
+          id="hamburger"
+          aria-label="Menu"
+          aria-controls="navigation"
+        >
+          <span>&#9776;</span>
+        </button>
+        <nav id="navigation" class="navigation menubar">
+          <button class="close-nav" aria-label="Cerrar menú">&times;</button>
+          <a href="/index.html">Inicio</a>
+          <a href="index.html#join">Trabaja con Nosotros</a>
+          <a href="#contact-form-section">Contacto</a>
+        </nav>
+      </header>
+      
+      <!--=============== About ===============-->
+      <section class="about">
+
+      <section class="intro">
+          <h1>Revolucionando la Logística en la Construcción</h1>
+          <p>
+            En <span class="brand-name">STANDBY</span>, nos enorgullecemos de ser pioneros en la transformación logística de la industria de la construcción. Nuestra plataforma innovadora conecta a proveedores de ferretería con una red de conductores dedicados, facilitando entregas rápidas y eficientes a clientes y constructores. Con la tecnología en el corazón de nuestro servicio, permitimos a nuestros clientes realizar seguimientos en tiempo real de sus pedidos, optimizando significativamente la productividad en las obras y mejorando la experiencia del cliente.
+          </p>
+
+          <div class="mission-vision-values">
+            <div class="mission-vision">
+              <div class="mission">
+                <div class="mission-header">
+                  <div class="mission-icon">
+                  </div>
+                  <h3>Misión</h3>
+                </div>
+                <p>
+                  Nuestra misión es clara: revolucionar la logística en la industria de la construcción. Nos enfocamos en optimizar el uso de flotas vehiculares para los proveedores, generando sinergias eficientes y ofreciendo un servicio de entrega que no solo es rápido, sino también altamente eficiente para proveedores y clientes por igual.
+                </p>
+              </div>
+          
+              <div class="vision">
+                <div class="mission-header">
+                  <div class="mission-icon">
+                  </div>
+                  <h3>Visión</h3>
+                </div>
+                <p>
+                  Aspiramos a ser la fuerza líder en la transformación logística dentro de la industria de materiales de construcción. Nuestra visión es liderar el camino hacia una cadena de suministro eficiente, sostenible y tecnológicamente avanzada, accesible en todo momento.
+                </p>
+              </div>
+            </div>
+
+            <div class="values-sec">
+              <div class="mission-header">
+                <div class="mission-icon">
+                </div>
+                <h3>Valores</h3>
+              </div>
+              <div class="values">
+                <div id="1" onclick="mostrarDescripcion(this)">
+                  <p>Innovación</p>
+                  <div class="descripcion-valor">
+                    <p>Innovamos para liderar en logística constructiva, transformando desafíos en soluciones tecnológicas eficientes.</p>
+                  </div>
+                </div>
+                <div id="2" onclick="mostrarDescripcion(this)">
+                  <p>Confianza</p>
+                  <div class="descripcion-valor">
+                    <p>Garantizamos confiabilidad a través de la integridad y consistencia en cada entrega y transacción.</p>
+                  </div>
+                </div>
+                <div id="3" onclick="mostrarDescripcion(this)">
+                  <p>Excelencia</p>
+                  <div class="descripcion-valor">
+                    <p>Perseguimos la excelencia sin compromisos para superar las expectativas en cada proyecto.</p>
+                  </div>
+                </div>
+                <div id="4" onclick="mostrarDescripcion(this)">
+                  <p>Colaboración</p>
+                  <div class="descripcion-valor">
+                    <p>Valoramos la colaboración como el camino hacia logros significativos y relaciones duraderas.</p>
+                  </div>
+                </div>
+                <div id="5" onclick="mostrarDescripcion(this)">
+                  <p>Trasparencia</p>
+                  <div class="descripcion-valor">
+                    <p>Operamos con transparencia completa, fomentando la confianza y la claridad en cada paso.</p>
+                  </div>
+                </div>
+                <div id="6" onclick="mostrarDescripcion(this)">
+                  <p>Crecimiento Sostenible</p>
+                  <div class="descripcion-valor">
+                    <p>Nos enfocamos en un crecimiento sostenible que equilibra el éxito económico con la responsabilidad social y ambiental.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+
+        <div class="focus">
+          <h3 class="brand-name subtitle">ENFOQUE</h3>
+          <p>Abordamos un problema crítico en la industria de la construcción: la baja productividad debido a procesos logísticos ineficientes. StandBy responde a este desafío centralizando vehículos de carga pesada a través de una solución tecnológica, aumentando así la capacidad de distribución y mejorando el nivel de servicio al cliente.</p>
+        </div>
+      </section>
+
+      <section class="service">
+            <div class="product-service-content">
+              <div class="product-service-text">
+                <h3 class="brand-name  subtitle">SERVICIO</h3>
+                <p>Ofrecemos una solución tecnológica completa que incluye aplicaciones para operadores y administradores, sistemas de caja registradora y seguimiento en tiempo real, asegurando entregas puntuales y eficientes. Con un enfoque en la capacitación, garantizamos que nuestro personal y afiliados estén bien equipados para utilizar nuestra tecnología de manera efectiva.</p>
+              </div>
+              <div class="product-service-image">
+                <img src="/img/service.webp" alt="Descripción de la imagen">
+              </div>
+            </div>
+      </section>
+
+      <div class="policy">
+      <h3 class="brand-name  subtitle">POLÍTICAS</h3>
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-icon">
+            <img src="/img/icons/admin.webp" alt="Imagen">
+          </div>
+          <h3>Administrativo</h3>
+          <ul>
+            <li>Manejamos la logística administrativa de tus proyectos con precisión y eficiencia.</li>
+            <li>Analizamos y optimizamos tus costos operativos para mejorar la rentabilidad.</li>
+            <li>Ofrecemos informes detallados para una visibilidad completa de las operaciones.</li>
+            <li>Aseguramos el cumplimiento de todas las normativas y leyes fiscales vigentes.</li>
+          </ul>
+        </div>
+      
+        <div class="card">
+          <div class="card-icon">
+            <img src="/img/icons/compromise.webp" alt="Administrativo">
+          </div>
+          <h3>Compromiso</h3>
+          <ul>
+            <li>Nuestro compromiso es cumplir con los tiempos de entrega prometidos, cada vez.</li>
+            <li>Mantenemos los más altos estándares de servicio al cliente en cada punto de contacto.</li>
+            <li>Ofrecemos soporte continuo para garantizar la satisfacción del cliente y la mejora continua.</li>
+            <li>Comprometidos con la seguridad de tu carga, ofrecemos las mejores prácticas y equipos para su protección.</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <section id="contact-form-section" class="contact-sec">
+        <hr class="firsthr"/>
+        <div class="contact-form-container">
+          <h2>Contactanos</h2>
+          <form id="contact-form">
+            <div class="f-field">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+            <div class="f-field">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Correo"
+                required
+              />
+            </div>
+            <div class="f-field">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Mensaje"
+                required
+              ></textarea>
+            </div>
+            <div class="f-field">
+              <button type="submit" class="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section> 
+
+      <!--=============== Footer ===============-->
+      <footer class="about-footer">
+          <div class="contact-us">
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Torreón, Coahuila</li>
+              <li><i class="fas fa-envelope"></i> managment@standby.com.mx</li>
+              <li><i class="fas fa-phone"></i> 871 505 7269</li>
+            </ul>
+          </div>
+          <hr class="lasthr"/>
+          <p class="copyright-about">
+              2023 &copy; | Todos los derechos reservados por StandBy&reg;
+          </p>
+      </footer>
+    </div>
+
+  </body>
+  <script src="about/about.js"></script>
+</html>
